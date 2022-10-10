@@ -3,7 +3,7 @@
 int main ()
 {
 	double x;
-	scanf("%lf",&x);
+	scanf("%lf",&x);    //无需定义y,并不是变量
 	if (x>=-10&&x<=4)
 		printf("y=%.2lf",fabs(x-2));
 	else if (x>=5&&x<=7)
